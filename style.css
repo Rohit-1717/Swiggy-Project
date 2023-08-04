@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color:#2B1E16;
+    display: flex;
+}
+
+#nav{
+    height:150px;
+    width: 100%;
+    /* background: #d16161; */
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: space-between; */
+}
+
+#sign-in{
+    height: 85%;
+    width:55%;
+    background-color: #ffffff;
+    padding: 0.1px 0;
+
+}
+
+
+#nav img{
+    height:150px;
+    width: 150px;
+    margin-top: 10x;
+    margin-left: 100px;
+    
+}
+
+#btn{
+    margin-left: 35%;
+    height: 50%;
+    width: 250px;
+    /* background-color: red; */
+    padding:14px 40px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: space-between;
+}
+
+#btn #log-in button{
+    font-size: 30 px;
+    font-family: Gilroy;
+    font-weight: 700;
+    padding: 2px 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#log-in button:hover{
+    color: #FC8019;
+    cursor: pointer;
+}
+
+#btn #sign-up button{
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 600;
+    padding: 12px 15px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+}
+
+#sign-up button:hover{
+    cursor: pointer;
+}
+
+#sign-in h1{
+    font-family: Gilroy;
+    font-size:40px;
+    font-weight: 600;
+    color: #282C3F;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#sign-in h3{
+    font-family: Gilroy;
+    font-size:24px;
+    font-weight:300;
+    line-height:40px;
+    color: #282C3F;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+
+#search{
+    height:100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+#search input{
+    margin-left:50px;
+    padding: 20px 150px;
+    border: none;
+    border: 1px solid #282C3F;
+}
+
+#search button{
+    padding:18px 30px;
+    font-family:Gilroy;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FC8019;
+    border: none;
+}
+
+#sign-in p{
+    margin-top: 25px;
+    margin-left: 50px;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(169, 171, 178);
+}
+
+#sign-in #location{
+    /* background-color: red; */
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+    
+   
+}
+
+#sign-in #location h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(104, 107, 120);
+    margin-left: 50px;
+    line-height: 24px;
+    word-spacing: 8px;
+}
+
+#food-pic{
+    height: 85%;
+    width:calc(45%);
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2{
+    height: 80%;
+    width: 100%;
+    background-color:#2B1E16;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -10.1%;
+}
+
+#page2 #no1{
+    height: 400px;
+    width: 280px;
+    /* background-color: salmon; */
+    text-align: center;
+}
+
+#page2 #no1 img{
+    height: 250px;
+    width: 150px;
+}
+
+#page2 #no1 h1{
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#page2 #no1 p{
+    margin-top: 15px;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19.5px;
+    color: #fff;
+}
+
+
+
+
+
+
+#page2 #no2{
+    height: 400px;
+    width: 280px;
+    /* background-color: salmon; */
+    text-align: center;
+}
+
+#page2 #no2 img{
+    height: 250px;
+    width: 150px;
+}
+
+#page2 #no2 h1{
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#page2 #no2 p{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19.5px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+
+
+
+#page2 #no3{
+    height: 400px;
+    width: 280px;
+    /* background-color: salmon; */
+    text-align: center;
+}
+
+#page2 #no3 img{
+    height: 250px;
+    width: 150px;
+}
+
+#page2 #no3 h1{
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#page2 #no3 p{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19.5px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+
+#page3{
+    height: 85%;
+    width: 100%;
+    /* background-color: #282C3F; */
+    padding: 0.1px 0;
+    position: absolute;
+}
+
+#page3 #rest{
+    height: 400px;
+    width: 490px;
+    /* background-color: rgb(210, 81, 30); */
+    margin-left: 70px;
+    margin-top: 70px;
+    padding: 0 0;
+}
+
+#rest h1{
+    font-family:gilroy;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    color: rgb(40, 44, 63);
+}
+
+#rest p{
+    font-family:gilroy;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgb(126, 128, 140);
+    margin-top: 45px;
+}
+
+#rest #img{
+    height: fit-content;
+    width: 350px;
+    /* background-color: red; */
+    margin-top: 45px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#img #and{
+    height: 50px;
+    width: 150px;
+}
+
+#img #and:hover{
+    cursor: pointer;
+}
+
+
+#img #Iphone{
+    height: 50px;
+    width: 150px;
+}
+
+#img #Iphone:hover{
+    cursor: pointer;
+}
+
+#page3 #mob1{
+    height: 450px;
+    width: 376px;
+    position:relative;
+    left: 45%;
+    top: -89%;
+}
+
+
+
+#page3 #mob2{
+    height: 450px;
+    width: 376px;
+    position:relative;
+    left: 42%;
+    top: -75%;
+}
